@@ -1,0 +1,6 @@
+{
+  "data": [
+    { "id": 1, "name": "Los Angeles Lakers", "city": "Los Angeles" },
+    { "id": 2, "name": "Golden State Warriors", "city": "San Francisco" }
+  ]
+}
