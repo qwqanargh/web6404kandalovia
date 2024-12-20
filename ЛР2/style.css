@@ -1,0 +1,523 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #c8102e; /* Красный цвет NBA */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #1d428a; /* Синий цвет NBA */
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Основной контент */
+.main-content {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    color: #c8102e;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.main-content img {
+    margin-top: 20px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+/* Таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.playoff {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.playin {
+    background-color: #FFA500;
+    color: white;
+    font-weight: bold;
+}
+
+.team-logo {
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Карточки команд и игроков */
+.conference-section {
+    margin-top: 30px;
+}
+
+.conference-section h3 {
+    font-size: 1.5em;
+    color: #1d428a;
+    text-align: center;
+    border-bottom: 2px solid #c8102e;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.team-card {
+    margin-bottom: 20px;
+}
+
+.team-card h4 {
+    font-size: 1.3em;
+    color: #c8102e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.player-card {
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+}
+
+.player-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.player-card p {
+    font-size: 1em;
+    color: #333;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Контактная информация */
+.contact-info {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-link {
+    font-size: 1.2em;
+    color: #1d428a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    color: #c8102e;
+    text-decoration: underline;
+}
+
+/* Подвал */
+.footer {
+    width: 100%;
+    background-color: #c8102e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    position: relative;
+}
+/* Flexbox стили */
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+}
+
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Grid стили */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #c8102e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+/* Flexbox стили */
+.flexbox-container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flex-item {
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.flex-item:hover {
+    transform: scale(1.05);
+}
+
+.flex-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.flex-item p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #1d428a;
+}
+/* Flexbox стили для контейнера */
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Расстояние между карточками */
+    justify-content: center; /* Центрирование карточек */
+    align-items: flex-start; /* Верхнее выравнивание */
+    padding: 20px;
+}
+
+/* Стили для карточек */
+.flex-item {
+    width: 250px; /* Одинаковая ширина для всех карточек */
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flex-item img {
+    width: 100%; /* Изображение адаптируется под карточку */
+    height: auto; /* Сохраняет пропорции */
+    display: block;
+}
+
+.flex-item p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #1d428a;
+}
+
+/* Анимация для карточек при наведении */
+.flex-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+/* Заголовок для галереи */
+.gallery-title {
+    width: 100%; /* Заголовок занимает всю ширину контейнера */
+    text-align: center; /* Выравнивание по центру */
+    font-size: 1.8em;
+    color: #1d428a; /* Синий цвет NBA */
+    margin-bottom: 20px; /* Расстояние между заголовком и карточками */
+}
+/* Заголовок для страницы Grid */
+.grid-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    color: #1d428a;
+    margin-bottom: 20px;
+}
+
+/* Сетка Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Адаптивные колонки */
+    gap: 20px; /* Расстояние между элементами */
+    padding: 20px;
+}
+
+/* Карточки игроков */
+.grid-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #c8102e; /* Красный цвет для имени игрока */
+}
+
+.grid-item p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 1em;
+}
+/* Стили для формы */
+#contact-form {
+    max-width: 500px; /* Ограничиваем ширину формы */
+    margin: 20px auto; /* Центрируем форму */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    color: #1d428a; /* Синий цвет NBA */
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #1d428a;
+    outline: none;
+    box-shadow: 0 0 5px rgba(29, 66, 138, 0.5);
+}
+
+#contact-form .button {
+    width: 100%;
+    background-color: #c8102e; /* Красный цвет NBA */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form .button:hover {
+    background-color: #1d428a; /* Синий цвет при наведении */
+}
+/* Основной стиль таблицы */
+.teams-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teams-table th, .teams-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+/* Заголовки таблицы */
+.teams-table th {
+    background-color: #1d428a; /* Темно-синий цвет NBA */
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Чередующиеся строки */
+.teams-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Наведение на строку */
+.teams-table tr:hover {
+    background-color: #c8102e; /* Красный цвет NBA */
+    color: white;
+}
+
+/* Дополнительные стили для текста */
+.teams-table td {
+    font-weight: 600;
+}
+/* Общие стили для страницы */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Задаем минимальную высоту экрана */
+    margin: 0;
+}
+
+/* Основной контент */
+.main-content {
+    flex: 1; /* Основной контент занимает оставшееся пространство */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Футер */
+.footer {
+    background-color: #c8102e; /* Цвет фона футера */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto; /* Автоматическое выравнивание к низу */
+}
+/* Секция конференции */
+.conference-section {
+    margin-top: 30px;
+    text-align: center; /* Центровка контента */
+}
+
+/* Контейнер для команды */
+.team-card {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Заголовки команд */
+.team-card h4 {
+    font-size: 1.5em;
+    color: #c8102e; /* Красный цвет NBA */
+    margin-bottom: 10px;
+}
+
+/* Карточка игрока */
+.player-card {
+    display: inline-block; /* Устанавливаем карточки в строку */
+    text-align: center; /* Центрируем содержимое карточки */
+    margin: 10px; /* Добавляем отступ между карточками */
+}
+
+/* Изображения игроков */
+.player-card img {
+    width: 120px; /* Устанавливаем одинаковую ширину */
+    height: 120px; /* Устанавливаем одинаковую высоту */
+    object-fit: cover; /* Сохраняем пропорции внутри заданных размеров */
+    border-radius: 50%; /* Делаем изображения круглыми */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+}
+
+/* Имена игроков */
+.player-card p {
+    margin-top: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}

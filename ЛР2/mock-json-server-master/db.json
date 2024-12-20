@@ -1,0 +1,18 @@
+{
+  "/teams": {
+    "get": {
+      "data": [
+        { "id": 1, "name": "Los Angeles Lakers", "city": "Los Angeles" },
+        { "id": 2, "name": "Golden State Warriors", "city": "San Francisco" },
+        { "id": 3, "name": "Chicago Bulls", "city": "Chicago" },
+        { "id": 4, "name": "Boston Celtics", "city": "Boston" },
+        { "id": 5, "name": "Miami Heat", "city": "Miami" }
+      ]
+    }
+  },
+  "/messages": {
+    "post": {
+      "data": []
+    }
+  }
+}
